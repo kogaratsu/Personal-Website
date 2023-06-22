@@ -2,130 +2,250 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mathias Vigouroux</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-<style>
-    #image {
-        padding-left: 1em;
-        padding-right: 2em;
-        padding-top: 2em;
-        padding-bottom: 1em;
-    }
-    #name{
-        padding-top: 2em;
-        padding-bottom: 2em;
-    }
-    #teaching{
-        padding-left: 1em;
-    }
-    *{
-        font-family: sans-serif;
-        color:#212529;
-    }
-    #papers{
-        font-size: small;
-    }
-    #link{
-        color: #6495ED;
-    }
-</style>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="index.js">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-    <img id="image" src="https://pbs.twimg.com/profile_images/1509112745320681477/CgYcRjgd_400x400.jpg" alt="Mathias profile picture" height="150" style="float:left;">
-    <h2 id="name">Mathias Vigouroux
-        <br>
-        Associate Professor
-        <br>
-        Nishogakusha University 
-    </h2>
-</div>
-<hr>
-<p>I am an associate professor in the Department of Urban Culture and Design. Before joining Nishogakusha University in 2017, I was a lecturer in the Institute of Cross-Cultural and Regional Studies at Zhejiang University (ZJU) from August 2013 to February 2017. I was also a postdoctoral research associate in the Department of East Asian Studies at Princeton University for the period September 2011 through June 2013. </p>
-<br>
-I gained my doctorate in Chinese Studies from Nishogakusha University in 2011 (supervisor: Prof. Senjurō Machi), and in Études de l'Asie et ses diasporas from Jean Moulin Lyon 3 University in 2014 (supervisor: Prof. Jean-Pierre Giraud). 
-<hr>
-My research investigates medical knowledge transfer and production in early modern Japan.
-I examine how texts and images related to the acupuncture channels theory were understood, and how theoretical medical knowledge that circulated in print during the Tokugawa period translated into clinical practice. 
-
-<br>
-<br>
-I also edited the book <em>Brush Talks and the Circulation of Medical and Scientific Knowledge in Early Modern East Asia</em> (Kyuko shoin: 2017. Publication in Japanese). The book explores the role human mobility played in the circulation of medical knowledge in East Asia through in-depth studies of manuscript and printed 'brush talks' (written exchange in classical Chinese) between Japanese, Korean and Chinese doctors.  
-<hr>
-I am currently working on a project that examine the epistolary network of the nineteenth century sinologist Stanislas Julien. 
-<hr>
-<h3>Books</h3>
-<ul>
-    <li><em>Brush Talks and the Circulation of Medical and Scientific Knowledge in Early Modern East Asia</em> (Kyuko shoin: 2017. Publication in Japanese) </li>
-    <br>
-    <li><em>Léon de Rosny and Nineteenth Century European Orientalists</em> (Co-edited with Senjurō Machi. Nishogakusha U.: 2019. Publication in Japanese)</li>
-</ul>
-
-<h3>Selected Papers</h3>
-<ul id="papers">
-    <li>「図像から考える日中欧の医学交流−江戸後期の状況を題材に」、松本健太郎、王怡然編『日中文化のトランスナショナルコミュニケーション』、ナカニシャ出版、2021</li>
-    <br>
-    <li>"Transmettre quels savoirs ? Le rôle des illustrations des vaisseaux d’acuponcture dans la circulation des savoirs médicaux entre l’Asie orientale et l’Europe au dix-septième 
-        siècle," <em>Eurasie</em> 28, 2019</li>
-    <br>
-    <li>"The surgeon’s acupuncturist: Philipp Franz von Siebold’s encounter with Ishizaka Sōtetsu and nineteenth century Japanese acupuncture," <em>Revue d’histoire des Sciences</em> 70(1), 2017</em></li>
-    <br>
-    <li>"The Reception of the Circulation Channels Theory into Japan (1500-1868)," in Benjamin Elman (ed), <em>Antiquarianism, Language, and Medical Philology</em>, Leiden: Brill, 2015</li>
-</ul>
-
-<hr>
-<h3>Teaching</h3>
-<h4 id="teaching">Nishogakusha University</h4>
-<ul>
-    <li>Global Japanese Studies, spring 2022</li>
-    <li> Edo/Tokyo Culture, Fall 2019, 2020 & 2021</li>
-    <li>Introduction to Regional Culture 2017 & 2018</li>
-</ul>
-<h4 id="teaching">Zhejiang University</h4>
-<ul>
-    <li>Introduction to Early Modern East Asia, Fall 2014 & 2015</li>
-    <li>Chinese Culture in Globalization, Fall 2014 & 2015</li>
-</ul>
-<h4 id="teaching">Princeton University</h4>
-<ul>
-    <li>EAS502: Proseminar in Chinese and Japanese Studies (co-taught with Prof. Benjamin Elman)</li>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">Mathias Vigouroux</div>
     
-</ul>
-<hr>
-<h3>Miscellaneous Personal Stuff</h3>
-<p>I am currently learning how to code and this page is my first attempt to build a personal portfolio website. This website was created from scratch with html only. Hopefully the design will improve soon. Thank you for your understanding!</p> 
-<p>If you want more detailed information on my publications, check <a id="link" href="https://researchmap.jp/mathias_vigouroux?lang=en">Researchmap</a> or my <a id="link" href="https://nishogakusha-u.academia.edu/mathiasvigouroux">Academia</a> page.</p> 
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+    
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="https://mathiasvigouroux.com/">Home</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="">Stanislas Julien Project</a></li>
+          </div>
+        </ul>
+      </nav>
 
-<p>Follow me on Twitter: <a href="https://twitter.com/MathiasVigz?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @MathiasVigz</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-<hr>
-<h3>Contact Information</h3>
-Email:
-<br>
-v-mathia AT nishogakusha-u DOT ac DOT jp
-<br>
-<br>
-Nishogakusha University
-<br>
-Chiyoda ku Sanbancho 6-16
-<br>
-102-8336 Tokyo JAPAN 
-<hr>
+<section class="section1-profile">
+<div class="container">
+    <div class="profile-section">
+        <div class="profile-photo">
+            <img id="image" src="https://pbs.twimg.com/profile_images/1509112745320681477/CgYcRjgd_400x400.jpg" alt="Mathias profile picture" height="150" style="float:left;">
+            <h2 id="name">Mathias Vigouroux</h2>
+            <h3>Associate Professor</h3>
+            <h3>
+                <a href="https://www.nishogakusha-u.ac.jp/english/index.html" target="_blank" rel="noopener">
+                    <span class="nisho-link">Nishogakusha University</span>
+                </a>
+            </h3>  
+            <ul class="profile-photo-icon" aria-hidden="true">
+                <li>
+                    <a href="#contact" aria-label="envelope" style=" color: #1565c0">
+                    <i class="fas fa-envelope big-icon"></i>
+                    </a>
+                </li>   
+                <li>
+                    <a href="https://scholar.google.com/citations?user=Q_Vbi1YAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="google-scholar" style=" color: #1565c0">
+                      <i class="ai ai-google-scholar big-icon"></i>
+                    </a>
+                  </li>  
+                  <li>
+                    <a href="https://github.com/kogaratsu" target="_blank" rel="noopener" aria-label="github" style=" color: #1565c0">
+                      <i class="fab fa-github big-icon"></i>
+                    </a>
+                  </li>
+             </ul>
+        </div>
+    </div>
+    <div class="profile-section">
+         <div class="profile-text">
+          <p>I am an associate professor in the Department of Urban Culture and Design. Before joining Nishogakusha University in 2017, I was a lecturer at the Institute of Cross-Cultural and Regional Studies at Zhejiang University (ZJU) from August 2013 to February 2017. I was also a postdoctoral research associate in the Department of East Asian Studies at Princeton University for the period September 2011 through June 2013. </p>
+          <br>
+         <p>I gained my doctorate in Chinese Studies from Nishogakusha University in 2011 (supervisor: Prof. Senjurō Machi), and in Études de l'Asie et ses diasporas from Jean Moulin Lyon 3 University in 2014 (supervisor: Prof. Jean-Pierre Giraud). 
+          My research investigates medical knowledge transfer and production in early modern Japan.
+          I examine how texts and images related to the acupuncture channels theory were understood, and how theoretical medical knowledge that circulated in print during the Tokugawa period translated into clinical practice. 
+           </p>    
+         </div>
+     </div>
+</div>
+</section>
+
+
+
+<section class="books" id="publications">
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="books-cat">
+                <h1>Books</h1>
+             </div>
+        </div>
+        <!-- <div class="books-section">
+            <div class="books-description">
+               <div class="author-date"> <span class="author">Mathias Vigouroux (ed)</span> <br>
+                  <span class="date">December 2021</span> 
+                </div>
+                <div class="book-title"><a href="http://www.kyuko.asia/book/b595216.html">Brush Talks and the Circulation of Medical and Scientific Knowledge in Early Modern East Asia</a> 
+                </div>
+                <p class="book-content-description"> Original book title in Japanese: 近世・近代期筆談記録が語る東アジアの医学・学術交流. The book has two parts. The first part explores the role human mobility played in the circulation of medical knowledge in East Asia through in-depth studies of manuscripts and printed 'brush talks' (written exchange in classical Chinese) between Japanese, Korean and Chinese doctors.
+                    The second part of the book includes the transcription of two brush talks between Korean and Japanese doctors : <em>Chōsenjin hitsudan</em> 朝鮮人筆談 (1636) and <em>Chōsen hitsudan</em> 朝鮮筆談 (1748). </p>
+            </div>
+        </div> -->
+        
+        <div class="item-one">
+            <div class="books-description">
+               <div class="author-date"> <span class="author">Mathias Vigouroux (ed)</span> <br>
+                  <span class="date">December 2021</span> 
+                </div>
+                <div class="book-title"><a href="http://www.kyuko.asia/book/b595216.html">Brush Talks and the Circulation of Medical and Scientific Knowledge in Early Modern East Asia</a> 
+                </div>
+                <p class="book-content-description"> Original book title in Japanese: 近世・近代期筆談記録が語る東アジアの医学・学術交流. The book has two parts. The first part explores the role human mobility played in the circulation of medical knowledge in East Asia through in-depth studies of manuscripts and printed 'brush talks' (written exchange in classical Chinese) between Japanese, Korean and Chinese doctors.
+                    The second part of the book includes the transcription of two brush talks between Korean and Japanese doctors : <em>Chōsenjin hitsudan</em> 朝鮮人筆談 (1636) and <em>Chōsen hitsudan</em> 朝鮮筆談 (1748). </p>
+            </div>
+        </div>
+
+        <div class="item-two">
+            <div class="books-description">
+                <div class="author-date"> <span class="author">Senjurō Machi, </span> 
+                    <span class="author-highlighted">Mathias Vigouroux</span><span>,</span>
+                    <span>Nobuko Shimizu</span> <br>
+                    <span class="date">June 2019</span> 
+                 </div>
+                  <div class="book-title"><a href="https://www.academia.edu/42012935/%E3%83%AC%E3%82%AA%E3%83%B3_%E3%83%89_%E3%83%AD%E3%83%8B%E3%83%BC%E3%81%A819%E4%B8%96%E7%B4%80%E6%AC%A7%E5%B7%9E%E6%9D%B1%E6%B4%8B%E5%AD%A6%E8%80%85_L%C3%A9on_de_Rosny_and_Nineteenth_Century_European_Orientalists_">Léon de Rosny and Nineteenth Century Oriental Studies</a> 
+                  </div>
+                  <p class="book-content-description"> Original book title in Japanese: レオン・デ・ロニーと19世紀欧州東洋学. The book is divided into three parts. The first part is a critical edition of letters written by Léon de Rosny (1837-1914) and Julius Klaproth (1783-1835) to various correspondents and held in Nishogakusha University Library. It includes a biography of Léon de Rosny and a presentation of some rare editions of his books held in Nishogakusha University Library. 
+                    The second part presents Japanese books related to Foreign Affairs and printed in the bakumatsu period (1853-1868). The last part of book is a transcription of letters written by Japanese scholars and officials involved in foreign affairs.       
+                 <br><br>
+                 <button class="button-pdf"><a href="https://www.academia.edu/42012935/%E3%83%AC%E3%82%AA%E3%83%B3_%E3%83%89_%E3%83%AD%E3%83%8B%E3%83%BC%E3%81%A819%E4%B8%96%E7%B4%80%E6%AC%A7%E5%B7%9E%E6%9D%B1%E6%B4%8B%E5%AD%A6%E8%80%85_L%C3%A9on_de_Rosny_and_Nineteenth_Century_European_Orientalists_">PDF</a></button>  </p>      
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="papers">
+    <div class="grid-container-papers">
+        <div class="grid-item-papers">
+            <div class="papers-cat">
+                <h1>Papers</h1>
+             </div>
+        </div>
+        
+        <div class="item-one-papers">
+            <div class="papers-description">
+               <div class="author-date"><span class="author-highlighted">Mathias Vigouroux, </span> 
+                <span class="author">Senjurō Machi</span> <br>
+                  <span class="date">December 2022</span> 
+                </div>
+                <div class="paper-title-long"><a href="/Papers/翻刻『鍼灸施治姓名録』.pdf">翻刻『鍼灸施治姓名録』 ― 専門医家中島家の第四世にあたる中島友玄の鍼灸臨床の記録</a> 
+                </div>   
+                <p class="book-content-description">      
+                    <button class="button-pdf"><a href="/Papers/翻刻『鍼灸施治姓名録』.pdf">PDF</a></button> </p>
+                </div>
+        </div>
+        <div class="item-two-papers">
+            <div class="papers-description">
+               <div class="author-date"> <span class="author">Mathias Vigouroux</span> <br>
+                  <span class="date">March 2021</span> 
+                </div>
+                <div class="book-title"><a href="https://www.nakanishiya.co.jp/book/b590360.html">図像から考える日中欧の医学交流</a> 
+                </div>
+                <p class="book-content-description">江戸時代になると、書物から新たな医学的知識が得られるようになった。17 世 紀から商業出版が発展したことにより、出版文化が本格的に普及することになった。 そしてそれにともない、当時の人びとにとって医学関係の本が身近なものとなり、 多様な読者層を対象とした様々な書籍が出版された。17 世紀後半になると、しばしば図が使用さ れ、書物のなかでそれが文字と自由に組み合わされるようになった。問題となるのは、イラストレーションのついた医学書・巻物を作成した当時の医 師は、どのような表現を目的としたのだろうか、あるいは、イラストレーションに 何を期待したのであろうか、という点である。
+                    また、実際のところ読者はどのよう にイラストレーションを理解し、それを利用したのだろうか、という点も疑問であ る。本章 ではいくつかの例を取りあげながら、このような医学関連のイラストレーションを めぐる諸問題を明らかにする。<br>
+                   <br> <button class="button-pdf"><a href="/Papers/CJTN_chap09_210717.pdf">PDF</a></button> </p>
+             </div>
+        </div>
+
+        <div class="item-three-papers">
+            <div class="papers-description">
+               <div class="author-date"> <span class="author">Mathias Vigouroux</span> <br>
+                  <span class="date">February 2019</span> 
+                </div>
+                <div class="book-title"><a href="https://www.editions-harmattan.fr/livre-transferts_techniques_et_transmission_de_savoir_faire_christine_lorre-9782343166605-62352.html">Transmettre quels savoirs ? Le rôle des illustrations des vaisseaux d’acuponcture dans la circulation des savoirs médicaux entre l’Asie orientale et l’Europe au dix-septième siècle
+                    </a> 
+                </div>
+                <p class="book-content-description">The arrival of Portuguese traders in Japan in the sixteenth century corresponded to the first detailed European descriptions of acupuncture and moxibustion. These two healing methods aroused the interest of Europeans doctors assigned to the Dutch trading post on Dejima, and, moreover, the interest of those in Europe who had access to this knowledge. This paper examines how the images depicting the acupuncture vessels were understood by Japanese and European doctors. Focusing on both medical theory and clinical practice, we aim at restoring the medical dynamic of that period, revealing some of the hybridizations that took place during the transmission process of these images, and assessing the role human mobility and texts
+                    played in the transmission of medical knowledge. <br><br>
+                    <button class="button-pdf"><a href="/Papers/Eurasie_28Mathias.pdf">PDF</a></button> </p>
+                    
+            </div>
+        </div>
+        <div class="item-four-papers">
+            <div class="papers-description">
+               <div class="author-date"> <span class="author">Mathias Vigouroux</span> <br>
+                  <span class="date">January 2017</span> 
+                </div>
+                <div class="book-title"><a href="https://www.cairn.info/revue-d-histoire-des-sciences-2017-1.htm">The surgeon’s acupuncturist: Philipp Franz von Siebold’s encounter with Ishizaka Sōtetsu and nineteenth century Japanese acupuncture
+                    </a> 
+                </div>
+                <p class="book-content-description">In contrast to the first European descriptions of acupuncture by Willem Ten Rhjine and Engelbert Kaempfer in the last decades of the seventeenth century,
+                    Philipp Franz von Siebold’s notes did not receive much attention upon his return to Holland in 1828. Siebold’s interest in acupuncture was different from that of his predecessors, as he was not interested in acupuncture in general – 
+                    as Rhjine and Kaempfer were – but in the theories of Ishizaka Sōtetsu 石坂宗哲, an early nineteenth century Japanese acupuncturist who attempted to bridge the gap between Western and Sino-Japanese medicine. In this essay, I first reconstruct Siebold’s encounter
+                     with Ishizaka using rare materials held by Leiden University library, Leiden National Museum of Ethnology, and the Ishizaka family. Then, I review the new developments happening in Japanese acupuncture at the turn of the nineteenth century. I show how Ishizaka applied
+                      his knowledge on Western anatomy to acupuncture, contending that it gave him new methodological and epistemological tools to reconstruct acupunc- ture theories into his own theoretical framework. This allowed him to place himself in the debates that flourished in Japanese medicine since the late seventeenth century. 
+                      Finally, I examine the reasons of Siebold’s interest for Ishizaka’s theories and his contribution to their diffusion in Europe.<br><br>
+                    <button class="button-pdf"><a href="/Papers/RHS_2017-1_0079.pdf">PDF</a></button> </p>
+                    
+            </div>
+        </div>
+        <div class="item-five-papers">
+            <div class="papers-description">
+               <div class="author-date"> <span class="author">Mathias Vigouroux</span> <br>
+                  <span class="date">January 2015</span> 
+                </div>
+                <div class="book-title"><a href="https://brill.com/display/title/26356">The Reception of the Circulation Channels Theory in Japan (1500–1800)
+                    </a> 
+                </div>
+                <p class="book-content-description">This essay seeks to explore the early reception of the channels theory in Japan, and the sort of challenges faced by Japanese physicians in assimilating it into their medical practice by determining what Chinese textbooks were available to Japanese physicians and how they 
+                    selected them and appropriated their content. I first review the reception of Chinese acupuncture in the classical and medieval periods, arguing that the turning point in Japan was the transmission of Hua Shou’s 滑壽 <i>Shisijing fahui</i> 十四經發揮 (<i>Elucidation of the Fourteen Channels</i>) in the late medieval period. 
+                    Although major Chinese medical books explaining the channels theory had been transmitted to Japan, knowledge on the channels was not diffused to a large number of Japanese physicians and was not yet applied to clinical practice prior to the introduction of Hua Shou’s textbook. I analyze particularly the role Manase Dōsan 曲直瀬道三 (1507-1594) 
+                    played in the adoption of this textbook as the authoritative text on the channels theory. I also argue that the visual innovations in the representation of the course of the channels and the location of the acupuncture points on the body in the second half of the seventeenth century functioned as multi-media pedagogical tools to facilitate the acquisition 
+                    of knowledge on the channels theory. 
+                    <br><br>
+                    <button class="button-pdf"><a href="/Papers/Reception channel theory-Vigouroux.pdf">PDF</a></button> </p>      
+            </div>
+        </div> 
+    </div>    
+</section>
+
+
+<section class="contact" id="contact">
+    <div class="grid-container-contact">
+        <div class="grid-item-papers">
+            <div class="papers-cat">
+                <h1>Contact</h1>
+             </div>
+        </div>
+        
+        <div class="item-one-papers">
+            <div class="papers-description">
+               <div class="contact-list">
+                  <ul>
+                    <div class="contact-list-objet">
+                       <li> <i class="fas fa-envelope big-icon"></i>
+                         v-mathia AT nishogakusha-u DOT ac DOT jp</li>
+                        <li><i class="fa-solid fa-location-pin"></i> 102-8336 Tokyo Chiyoda ku Sanbanchō 6-16</li>
+                    </div>
+                 </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</section>
+
+
 <footer>
+  
     &copy; <em id="date"></em>Mathias Vigouroux 
     <div id = "result"></div>
     <script>
         var date = document.lastModified;
         document.getElementById("result").innerHTML = "The document was last modified on : " + date;
 </script>
+
 </footer>    
 
-
-
-
-</body>
-
-
-</html>
+<script src="https://kit.fontawesome.com/1990c18172.js" crossorigin="anonymous"></script>
+</body>      
