@@ -82,11 +82,11 @@ nav a:focus {
 
 }
 .item-profile-photo{
-    border: solid black; 
+    /* border: solid black;  */
 }
 
 .item-profile-text {
-    border: solid black;
+    /* border: solid black; */
 }
 
 /* .item1-profile-img img{
@@ -187,7 +187,7 @@ a:link {
 }
 
 .item3{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width:fit-content;
     height: fit-content;
     /* border: 1px solid ; */
@@ -204,7 +204,7 @@ a:link {
 }
 
 .item4 {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: fit-content;
     height: fit-content;
     /* border: 2px solid black; */
@@ -266,7 +266,7 @@ a:link {
 .item6{
     width: fit-content;
     height: fit-content;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 227px;
     margin-top: 0;
@@ -314,7 +314,7 @@ a:link {
 }
 
 .item7{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width:fit-content;
     height: fit-content;
     /* border: 1px solid ; */
@@ -331,7 +331,7 @@ a:link {
 }
 
 .item8 {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: fit-content;
     height: fit-content;
     /* border: 2px solid black; */
@@ -352,7 +352,7 @@ a:link {
 .item10{
     width: fit-content;
     height: fit-content;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 275px;
     margin-top: 0;
@@ -369,7 +369,7 @@ a:link {
 .item12{
     width: fit-content;
     height: fit-content;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 275px;
     margin-top: 0;
@@ -385,7 +385,7 @@ a:link {
 .item14{
     width: fit-content;
     height: fit-content;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 275px;
     margin-top: 0;
@@ -401,7 +401,7 @@ a:link {
 .item16{
     width: fit-content;
     height: fit-content;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 275px;
     margin-top: 0;
@@ -430,7 +430,7 @@ a:link {
 .item18{
     width: fit-content;
     height: fit-content;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-right: 230px;
     margin-left: 0;
     margin-top: 60px;
@@ -535,7 +535,7 @@ footer{
         margin-top: 40px;
     }
     .item4{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 40px;
         margin-left: 40px;
         font-size:1rem;  
@@ -559,7 +559,7 @@ footer{
         cursor: pointer;
     }
     .item6{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 0;
         margin-left: 40px;
         font-size:1rem;  
@@ -583,7 +583,7 @@ footer{
         margin-bottom: 0px;
     }
     .item8{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 40px;
         margin-left: 60px;
         margin-right:50px;
@@ -599,7 +599,7 @@ footer{
     }
     
     .item10{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 0;
         margin-left: 40px;
         font-size:1rem;  
@@ -613,7 +613,7 @@ footer{
         margin-bottom: 40px;  
     }
     .item12{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 0;
         margin-left: 40px;
         font-size:1rem;  
@@ -627,7 +627,7 @@ footer{
         margin-bottom: 40px;  
     }
     .item14{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 0;
         margin-left: 40px;
         font-size:1rem;  
@@ -641,7 +641,7 @@ footer{
         margin-bottom: 40px;  
     }
     .item16{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 0;
         margin-left: 40px;
         font-size:1rem;  
@@ -671,7 +671,7 @@ footer{
         margin-top: 0;
     }
     .item18{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-right: 40px;
         margin-left: 40px;
         padding-left: 0px;
@@ -742,7 +742,7 @@ footer{
         margin-top: 40px;
     }
     .item4{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 40px;
         margin-left: 40px;
         font-size:1.1rem;  
@@ -766,7 +766,7 @@ footer{
         cursor: pointer;
     }
     .item6{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 0;
         margin-left: 40px;
         font-size:1.1rem;  
@@ -789,7 +789,7 @@ footer{
         margin-top: 40px;
     }  
     .item8{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 40px;
        
         margin-left: 60px;
@@ -805,7 +805,7 @@ footer{
         margin-bottom: 40px;
     } 
     .item10{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 0;
         margin-left: 40px;
         font-size:1.1rem;  
@@ -819,7 +819,7 @@ footer{
         margin-bottom: 40px;
     }
     .item12{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 0;
         margin-left: 40px;
         font-size:1.1rem;  
@@ -833,7 +833,7 @@ footer{
         margin-bottom: 40px;
     }
     .item14{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 0;
         margin-left: 40px;
         font-size:1.1rem;  
@@ -847,7 +847,7 @@ footer{
         margin-bottom: 40px;
     }
     .item16{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 0;
         margin-left: 40px;
         font-size:1.1rem;  
@@ -875,7 +875,7 @@ footer{
         margin-top: 0px;
     }
     .item18{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-right: 40px;
         margin-left: 40px;
         padding-left: 0px;
@@ -974,7 +974,7 @@ footer{
         line-height: 2.3em;
     }
     .item18{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-right: 70px;
     }
 }
