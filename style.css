@@ -658,7 +658,7 @@ footer{
         font-style: italic;
     }
     .contact-list{
-        font-size: 1rem;
+        font-size: 0.9rem;
         line-height: 2.5em;
     }
     .item17 > h1{
@@ -677,6 +677,11 @@ footer{
         padding-left: 0px;
         margin-top: 0;
     }
+    .contact-list-objet> li > i {
+        font-size:1.6rem;
+        padding-right: 10px;
+    }
+   
 
 }   
 
