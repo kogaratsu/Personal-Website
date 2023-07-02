@@ -218,6 +218,7 @@ a:link {
     line-height: 1.5;
     text-align: left;
     padding-left: 40px; 
+    padding-right: 20px;
     /* background-color: white; */
     background-color: #EFEFEF;
     margin-bottom: 40px;
@@ -263,7 +264,7 @@ a:link {
 
 .item5{
     margin-left: 45px;
-    margin-right: 10px;
+    margin-right: 50px;
     margin-top: 60px;
 }
 
@@ -272,7 +273,7 @@ a:link {
     height: fit-content;
     /* border: 2px solid black; */
     margin-right: 40px;
-    margin-left: 227px;
+    margin-left: 125px;
     margin-top: 0;
     font-size:1.1rem;  
     font-family: inherit;
@@ -280,6 +281,7 @@ a:link {
     line-height: 1.5;
     text-align: left;
     padding-left: 40px; 
+    padding-right: 20px;
     background-color: #EFEFEF;
 }
 
@@ -322,8 +324,8 @@ a:link {
     width:fit-content;
     height: fit-content;
     /* border: 1px solid ; */
-    margin-left: 45px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 100px;
 }
 
@@ -339,7 +341,7 @@ a:link {
     width: fit-content;
     height: fit-content;
     /* border: 2px solid black; */
-    margin-right: 148px;
+    margin-right: 40px;
     margin-left: 80px;
     margin-top: 100px;
     font-size:1.1rem;  
@@ -348,17 +350,22 @@ a:link {
     line-height: 1.5;
     text-align: left;
     padding-left: 40px; 
+    padding-right: 20px;
     /* background-color: white; */
     background-color: #EFEFEF;
     margin-bottom: 40px;
 }
-
+.item9{
+    margin-left: 45px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
 .item10{
     width: fit-content;
     height: fit-content;
     /* border: 2px solid black; */
     margin-right: 40px;
-    margin-left: 275px;
+    margin-left: 125px;
     margin-top: 0;
     font-size:1.1rem;  
     font-family: inherit;
@@ -366,48 +373,66 @@ a:link {
     line-height: 1.5;
     text-align: left;
     padding-left: 40px; 
+    padding-right: 20px;
     background-color: #EFEFEF;
     margin-bottom: 40px;
 }
 
+.item11{
+    margin-left: 45px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
 .item12{
     width: fit-content;
     height: fit-content;
     /* border: 2px solid black; */
     margin-right: 40px;
-    margin-left: 275px;
+    margin-left: 125px;
     margin-top: 0;
     font-size:1.1rem;  
     font-family: inherit;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    padding-left: 40px; 
+    padding-left: 40px;
+    padding-right: 20px; 
     background-color: #EFEFEF;
     margin-bottom: 40px;
+}
+.item13{
+    margin-left: 45px;
+    margin-right: 50px;
+    margin-top: 60px;
 }
 .item14{
     width: fit-content;
     height: fit-content;
     /* border: 2px solid black; */
     margin-right: 40px;
-    margin-left: 275px;
+    margin-left: 125px;
     margin-top: 0;
     font-size:1.1rem;  
     font-family: inherit;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    padding-left: 40px; 
+    padding-left: 40px;
+    padding-right: 20px; 
     background-color: #EFEFEF;
     margin-bottom: 40px;
+}
+.item15{
+    margin-left: 45px;
+    margin-right: 50px;
+    margin-top: 60px;
 }
 .item16{
     width: fit-content;
     height: fit-content;
     /* border: 2px solid black; */
     margin-right: 40px;
-    margin-left: 275px;
+    margin-left: 125px;
     margin-top: 0;
     font-size:1.1rem;  
     font-family: inherit;
@@ -423,7 +448,7 @@ a:link {
 .item17{
     margin-left: 45px;
     margin-right: 0;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .item17 > h1 {
     font-family: 'montserrat',sans-serif;
@@ -438,7 +463,7 @@ a:link {
     /* border: 2px solid black; */
     margin-right: 230px;
     margin-left: 0;
-    margin-top: 60px;
+    margin-top: 30px;
     font-size:1.1rem;  
     font-family: inherit;
     font-weight: 400;
@@ -1064,7 +1089,7 @@ footer{
     }
    
     .item6{
-        margin-left: 110px;
+        margin-left: 70px;
         margin-right: 20px;
         padding-right: 20px;
     }
