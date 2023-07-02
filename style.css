@@ -192,7 +192,7 @@ a:link {
     width:fit-content;
     height: fit-content;
     /* border: 1px solid ; */
-    margin-left: 0px;
+    margin-left: 50px;
     margin-right: 0px;
     margin-top: 100px;
 }
@@ -264,7 +264,7 @@ a:link {
 
 .item5{
     margin-left: 45px;
-    margin-right: 50px;
+    margin-right: 100px;
     margin-top: 60px;
 }
 
@@ -324,7 +324,7 @@ a:link {
     width:fit-content;
     height: fit-content;
     /* border: 1px solid ; */
-    margin-left: 0px;
+    margin-left: 50px;
     margin-right: 0px;
     margin-top: 100px;
 }
@@ -357,7 +357,7 @@ a:link {
 }
 .item9{
     margin-left: 45px;
-    margin-right: 50px;
+    margin-right: 100px;
     margin-top: 60px;
 }
 .item10{
@@ -380,7 +380,7 @@ a:link {
 
 .item11{
     margin-left: 45px;
-    margin-right: 50px;
+    margin-right: 100px;
     margin-top: 60px;
 }
 .item12{
@@ -402,7 +402,7 @@ a:link {
 }
 .item13{
     margin-left: 45px;
-    margin-right: 50px;
+    margin-right: 100px;
     margin-top: 60px;
 }
 .item14{
@@ -424,7 +424,7 @@ a:link {
 }
 .item15{
     margin-left: 45px;
-    margin-right: 50px;
+    margin-right: 100px;
     margin-top: 60px;
 }
 .item16{
@@ -446,7 +446,7 @@ a:link {
 }
 
 .item17{
-    margin-left: 45px;
+    margin-left: 50px;
     margin-right: 0;
     margin-top: 30px;
 }
@@ -454,7 +454,7 @@ a:link {
     font-family: 'montserrat',sans-serif;
     font-weight: 400;
     color: #313131;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .item18{
