@@ -10,17 +10,11 @@ ul {
     list-style: none;
 }
 body {
-    /* font-size: 1rem;
-    line-height: 1.6; */
-    /* background-color: #ecf0f1; */
-    /* color: #666; */
-    /* font-family: 'Roboto condensed', sans-serif; */
 }
 /*Nav Styles */
 header {
     background-color: #f7f7f7;
     padding: 1.5rem 0;
-    /* font-family: 'Roboto condensed', sans-serif;  */
 }
 nav {
     max-width: 1100px;
@@ -47,12 +41,11 @@ nav {
     color:#151515;
     display: block;
     padding: 10px 1.5rem;
-    /* FIX: suppression de la couleur #f7f7f7 qui était invalide dans transition */
+    /* FIX: suppression de #f7f7f7 invalide dans transition */
     transition: background-color .22s ease, color .22s ease;
     font-size: 1.5rem;
 }
 .menu a:hover {
-    /* background-color: #f34949; */
     color: blue;
 }
 /*submenu level 1 Styles */
@@ -63,7 +56,6 @@ nav {
     left:0;
     display: none;
 }
-/* show menu on hover */
 .menu li:hover > .submenu {
     display: block;
 }
@@ -87,12 +79,6 @@ nav {
     margin-top: 60px;
     padding-top: 0px;
 }
-.item-profile-photo{
-    /* border: solid black;  */
-}
-.item-profile-text {
-    /* border: solid black; */
-}
 #image{
     display: flex;
     text-align: center;
@@ -104,23 +90,19 @@ nav {
     padding-top: 0;
 }
 .item-profile-photo {
-width:fit-content;
-height: fit-content;
-/* border: 1px solid ; */
-margin-left: 0;
-margin-right: 10px;
-margin-bottom: 60px;
+    width:fit-content;
+    height: fit-content;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 60px;
 }
 .item-profile-photo > h2{
-padding-bottom: 0;
-margin-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
-.item-profile-photo >h3{
-margin-top: 0;
-margin-bottom: 0;
-}
-.item2 > p> a {
-    color: #1565c0;
+.item-profile-photo > h3{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .item-profile-photo > h2,h3 {
     text-align: center;
@@ -130,19 +112,19 @@ margin-bottom: 0;
     line-height: 1.5;
     text-decoration: none;
 }
-.item-profile-photo >h3 a{
+.item-profile-photo > h3 a{
    text-decoration: none;
 }
 a:link {
     text-decoration: none;
 }
-/* FIX: renommé de #link en .link pour éviter les IDs dupliqués */
+/* FIX: class .link remplace les anciens id="link" dupliqués */
 .link {
     color: #1565c0;
 }
 .container-profile i{
     color: #1565c0;
- }
+}
 .profile-photo-icon{
     display: flex;
     flex-direction: row;
@@ -160,24 +142,16 @@ a:link {
 .item-profile-text{
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid black; */
-    /* margin-right: 60px; */
-    /* margin-left: 40px; */
     font-size:1.2rem;
     font-family: inherit;
     font-weight: 400;
     line-height: 1.5;
-    text-align: left;
-    padding-left: 40px;
     text-align: justify;
-    /* margin-right: 0; */
-    /* margin-bottom: 80px; */
+    padding-left: 40px;
 }
 .item3{
-    /* border: 2px solid black; */
     width:fit-content;
     height: fit-content;
-    /* border: 1px solid ; */
     margin-left: 50px;
     margin-right: 0px;
     margin-top: 100px;
@@ -189,10 +163,8 @@ a:link {
     font-size: 40px;
 }
 .item4 {
-    /* border: 2px solid black; */
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 100px;
     margin-top: 100px;
@@ -203,7 +175,6 @@ a:link {
     text-align: left;
     padding-left: 40px;
     padding-right: 20px;
-    /* background-color: white; */
     background-color: #EFEFEF;
     margin-bottom: 40px;
 }
@@ -214,10 +185,10 @@ a:link {
     padding-left: 5px;
     padding-top: 15px;
     margin-bottom: 15px;
+    margin-right: 15px;
 }
 .book-title a{
     color: #151515;
-    /* transition: color .6s ease;    */
     font-size: 1.25rem;
     font-family: 'montserrat',sans-serif;
     font-weight: 700;
@@ -225,12 +196,7 @@ a:link {
     margin-bottom: 0.5rem;
     cursor: pointer;
 }
-.book-title{
-    margin-right: 15px;
-}
 .book-title a:hover {
-    /* color: #151515;
-    transition: color 1.6s ease;     */
     text-decoration: underline;
 }
 .author-date{
@@ -249,7 +215,6 @@ a:link {
 .item6{
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 125px;
     margin-top: 0;
@@ -265,15 +230,14 @@ a:link {
 .author-highlighted{
     font-weight: 700;
 }
+/* FIX: syntaxe border corrigée */
 .button-pdf{
     color: #1565c0;
-    border-color: #1565c0;
     padding: 0.25rem 0.5rem;
     font-size: .875rem;
     line-height: 1.5;
     border-radius: 0.2rem;
     background-color: transparent;
-    /* FIX: syntaxe de border corrigée */
     border: 1px solid #1565c0;
     margin-bottom: 0.5rem;
 }
@@ -290,15 +254,12 @@ a:link {
     line-height: 1.5;
     border-radius: 0.2rem;
     background-color: #1565c0;
-    /* FIX: syntaxe de border corrigée */
     border: 1px solid #1565c0;
     cursor:pointer;
 }
 .item7{
-    /* border: 2px solid black; */
     width:fit-content;
     height: fit-content;
-    /* border: 1px solid ; */
     margin-left: 50px;
     margin-right: 0px;
     margin-top: 100px;
@@ -310,10 +271,8 @@ a:link {
     font-size: 40px;
 }
 .item8 {
-    /* border: 2px solid black; */
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 80px;
     margin-top: 100px;
@@ -324,7 +283,6 @@ a:link {
     text-align: left;
     padding-left: 40px;
     padding-right: 20px;
-    /* background-color: white; */
     background-color: #EFEFEF;
     margin-bottom: 40px;
 }
@@ -336,7 +294,6 @@ a:link {
 .item10{
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 125px;
     margin-top: 0;
@@ -358,7 +315,6 @@ a:link {
 .item12{
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 125px;
     margin-top: 0;
@@ -380,7 +336,6 @@ a:link {
 .item14{
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 125px;
     margin-top: 0;
@@ -402,7 +357,6 @@ a:link {
 .item16{
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid black; */
     margin-right: 40px;
     margin-left: 125px;
     margin-top: 0;
@@ -415,6 +369,9 @@ a:link {
     padding-right: 20px;
     background-color: #EFEFEF;
     margin-bottom: 40px;
+}
+.item16 > .book-content-description span {
+    font-style: italic;
 }
 .item19{
     margin-left: 45px;
@@ -472,7 +429,6 @@ a:link {
 .item18{
     width: fit-content;
     height: fit-content;
-    /* border: 2px solid black; */
     margin-right: 230px;
     margin-left: 0;
     margin-top: 30px;
@@ -489,21 +445,19 @@ a:link {
     font-size: 1.5rem;
     line-height: 2.5em;
 }
-.contact-list-objet> li > i {
+.contact-list-objet > li > i {
     font-size:2.3rem;
     padding-right: 10px;
-}
-.item16 >.book-content-description span {
-    font-style: italic;
 }
 footer{
     text-align: center;
 }
-@media  (max-width: 576px)  {
+
+/* ===================== MOBILE (max 576px) ===================== */
+@media (max-width: 576px) {
     nav {
         flex-direction: column;
         text-align: center;
-
     }
     .logo {
         font-size: 1.5rem;
@@ -528,7 +482,6 @@ footer{
         justify-content: center;
         margin-top: 0px;
         align-items: center;
-
     }
     .container-profile > .item-profile-photo {
        padding-top: 0px;
@@ -537,14 +490,11 @@ footer{
        margin-bottom: 0px;
     }
     .item-profile-photo > #image {
-        /* text-align: center; */
         width: 170px;
         height: auto;
         margin-bottom: 5px;
     }
     .item-profile-photo {
-        /* flex-direction: column;
-        justify-content: center; */
         align-items: center;
         margin-bottom: 0;
         padding-bottom: 0;
@@ -554,12 +504,6 @@ footer{
     }
     .container-profile i {
         font-size: 2rem;
-    }
-    .item-profile-text {
-        /* flex-direction: column;
-        justify-content: center; */
-        margin-left: 50px;
-        margin-bottom: 0;
     }
     .container-profile > .item-profile-text {
         margin-top: 20px;
@@ -571,13 +515,8 @@ footer{
     .container-profile > .item-profile-text p {
         font-size: 1rem;
         margin-bottom: 0;
-
-
     }
     .item3 > h1 {
-        font-family: 'montserrat',sans-serif;
-        font-weight: 400;
-        color: #313131;
         font-size: 2rem;
     }
     .item3{
@@ -585,58 +524,33 @@ footer{
         margin-left: 0;
     }
     .item4{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 20px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0;
     }
-    .book-content-description {
-        text-align: justify;
-    }
     .book-title a{
-        color: #151515;
-        /* transition: color .6s ease;    */
         font-size: 0.95rem;
-        font-family: 'montserrat',sans-serif;
-        font-weight: 700;
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
-        cursor: pointer;
     }
     .item5{
         margin-top: 20px;
         margin-bottom: 0px;
     }
     .item6{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 20px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0;
     }
     .item7 > h1 {
-        font-family: 'montserrat',sans-serif;
-        font-weight: 400;
-        color: #313131;
         font-size: 2rem;
     }
     .item7{
@@ -646,136 +560,76 @@ footer{
         margin-right: 0px;
     }
     .item8{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right:10px;
         font-size:1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 40px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0px;
     }
-    .item9{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
-
+    .item9{ margin-top: 20px; margin-bottom: 0px; }
     .item10{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 20px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0px;
     }
-    .item11{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
+    .item11{ margin-top: 20px; margin-bottom: 0px; }
     .item12{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 20px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0px;
     }
-    .item13{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
+    .item13{ margin-top: 20px; margin-bottom: 0px; }
     .item14{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 20px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0px;
     }
-    .item15{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
+    .item15{ margin-top: 20px; margin-bottom: 0px; }
     .item16{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 20px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0;
     }
-    .item16 span {
-        font-style: italic;
-    }
-    .item19{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
+    .item19{ margin-top: 20px; margin-bottom: 0px; }
     .item20{
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 20px;
         padding-right: 20px;
         background-color: #EFEFEF;
         margin-bottom: 0px;
     }
-    .item21{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
+    .item21{ margin-top: 20px; margin-bottom: 0px; }
     .item22{
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 20px;
         padding-right: 20px;
         background-color: #EFEFEF;
@@ -786,9 +640,6 @@ footer{
         line-height: 2.5em;
     }
     .item17 > h1{
-        font-family: 'montserrat',sans-serif;
-        font-weight: 400;
-        color: #313131;
         font-size: 2rem;
     }
     .item17{
@@ -796,7 +647,6 @@ footer{
         margin-left: 0px;
     }
     .item18{
-        /* border: 2px solid black; */
         margin-right: 0px;
         margin-left: 0px;
         padding-left: 0px;
@@ -805,16 +655,17 @@ footer{
     .item18 ul{
         padding-left: 0;
     }
-    .contact-list-objet> li > i {
+    .contact-list-objet > li > i {
         font-size:1.6rem;
         padding-right: 10px;
     }
 }
+
+/* ===================== TABLETTE (576px–784px) ===================== */
 @media (min-width:576px) and (max-width:784px) {
     nav {
         flex-direction: column;
         text-align: center;
-
     }
     .logo {
         font-size: 1.8rem;
@@ -863,11 +714,6 @@ footer{
     .container-profile i {
         font-size: 2.3rem;
     }
-    .item-profile-text {
-        margin-top: 0;
-        padding-top: 0;
-        margin-left: 50px;
-    }
     .container-profile > .item-profile-text{
         margin-top: 20px;
         margin-left: 0;
@@ -879,249 +725,131 @@ footer{
         font-size: 1.2rem;
         margin-bottom: 0;
     }
-    .item3 > h1 {
-        font-family: 'montserrat',sans-serif;
-        font-weight: 400;
-        color: #313131;
-        font-size: 2.5rem;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .item3{
-        margin-top: 40px;
-    }
+    .item3 > h1 { font-size: 2.5rem; margin-top: 0; margin-bottom: 0; }
+    .item3{ margin-top: 40px; }
     .item4{
-        /* border: 2px solid black; */
         margin-top: 40px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1.1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 40px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0;
     }
-    .book-title a{
-        color: #151515;
-        /* transition: color .6s ease;    */
-        font-size: 1.2rem;
-        font-family: 'montserrat',sans-serif;
-        font-weight: 700;
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
-        cursor: pointer;
-    }
-    .item5{
-        margin-top: 20px;
-        margin-bottom: 0;
-    }
+    .book-title a{ font-size: 1.2rem; }
+    .item5{ margin-top: 20px; margin-bottom: 0; }
     .item6{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1.1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 40px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0px;
     }
-    .item7 > h1 {
-        font-family: 'montserrat',sans-serif;
-        font-weight: 400;
-        color: #313131;
-        font-size: 2.5rem;
-    }
-    .item7{
-        margin-top: 40px;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
+    .item7 > h1 { font-size: 2.5rem; }
+    .item7{ margin-top: 40px; margin-bottom: 0; margin-left: 0; margin-right: 0; }
     .item8{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right:10px;
         font-size:1.1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 40px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 40px;
     }
+    .item9{ margin-top: 20px; margin-bottom: 0; }
     .item10{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1.1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 40px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
-        margin-bottom: 00px;
+        margin-bottom: 0px;
     }
+    .item11{ margin-top: 20px; margin-bottom: 0; }
     .item12{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1.1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 40px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0px;
     }
+    .item13{ margin-top: 20px; margin-bottom: 0; }
     .item14{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1.1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 40px;
         padding-right: 20px;
-        /* background-color: white; */
         background-color: #EFEFEF;
         margin-bottom: 0px;
     }
+    .item15{ margin-top: 20px; margin-bottom: 0; }
     .item16{
-        /* border: 2px solid black; */
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1.1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
-        padding-left: 40px;
         padding-left: 20px;
-        /* background-color: white; */
+        padding-right: 20px;
         background-color: #EFEFEF;
         margin-bottom: 0;
     }
-    .item16 span {
-        font-style: italic;
-    }
-    .item19{
-        margin-top: 20px;
-        margin-bottom: 0;
-    }
+    .item19{ margin-top: 20px; margin-bottom: 0; }
     .item20{
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1.1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 20px;
         padding-right: 20px;
         background-color: #EFEFEF;
         margin-bottom: 0px;
     }
-    .item21{
-        margin-top: 20px;
-        margin-bottom: 0;
-    }
+    .item21{ margin-top: 20px; margin-bottom: 0; }
     .item22{
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         font-size:1.1rem;
-        font-family: inherit;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
         padding-left: 20px;
         padding-right: 20px;
         background-color: #EFEFEF;
         margin-bottom: 0px;
     }
-    .contact-list{
-        font-size: 1rem;
-        line-height: 2.5em;
-    }
-    .item17{
-        margin-top: 40px;
-        margin-left: 0px;
-    }
-    .item17 > h1{
-        font-family: 'montserrat',sans-serif;
-        font-weight: 400;
-        color: #313131;
-        font-size: 2.5rem;
-        margin-top: 0px;
-    }
+    .contact-list{ font-size: 1rem; line-height: 2.5em; }
+    .item17{ margin-top: 40px; margin-left: 0px; }
+    .item17 > h1{ font-size: 2.5rem; margin-top: 0px; }
     .item18{
-        /* border: 2px solid black; */
         margin-right: 0px;
         margin-left: 0px;
         padding-left: 0px;
         margin-top: 0;
     }
 }
-@media (min-width: 785px) and (max-width: 992px) {
-   header{
-    padding-left: 1rem;
-   }
-    .logo {
-        font-size: 1.5rem;
-    }
-    .menu a {
-        font-size: 1.2rem;
-    }
-    .container1 {
-        width: 100%;
-        text-align: center;
-    }
-    .titles > h1{
-        font-size: 1.3rem;
-    }
-    nav li {
-        font-size: 0.3rem;
-      }
-    .container1{
-        width: 95%;
-    }
 
+/* ===================== TABLETTE LARGE (785px–992px) ===================== */
+@media (min-width: 785px) and (max-width: 992px) {
+    header{ padding-left: 1rem; }
+    .logo { font-size: 1.5rem; }
+    .menu a { font-size: 1.2rem; }
+    .container1{ width: 95%; }
     .container-profile {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
     }
-    .item-profile-photo{
-        margin-top: 40px;
-    }
+    .item-profile-photo{ margin-top: 40px; }
     .container-profile > .item-profile-text {
         margin-right: 20px;
         margin-top: 60px;
@@ -1130,128 +858,30 @@ footer{
         padding-top: 0px;
         margin-top: 60px;
     }
-    .item-profile-photo > h2 {
-        font-size: 1.2rem;
-    }
-    .item-profile-photo > h3 {
-        font-size: 1.1rem;
-    }
-    .container-profile i {
-        font-size: 1.9rem;
-    }
-    .item-profile-text p {
-        font-size: 1.17rem;
-        margin-top: 0px;
-    }
-    .item-profile-photo > #image {
-        width: 200px;
-        height: auto;
-        margin-bottom: 5px;
-    }
-    .item3{
-        margin:0px;
-    }
-    .item4{
-        margin-top: 40px;
-        margin-left: 40px;
-        margin-right: 20px;
-        padding-right: 20px;
-    }
-
-    .item6{
-        margin-left: 70px;
-        margin-right: 20px;
-        padding-right: 20px;
-    }
-    .item7{
-        margin:0;
-    }
-    .item8{
-        margin-top:40px;
-        margin-left: 25px;
-        margin-right: 20px;
-        padding-right: 20px;
-        margin-bottom: 0;
-    }
-    .item9{
-        margin-right: 135px;
-    }
-    .item10{
-        margin-top:40px;
-        margin-left: 25px;
-        margin-right: 20px;
-        padding-right: 20px;
-        margin-bottom: 0;
-    }
-    .item11{
-        margin-right: 135px;
-    }
-    .item12{
-        margin-left: 25px ;
-        margin-top:40px;
-        margin-right: 20px;
-        padding-right: 20px;
-        margin-bottom: 0;
-    }
-    .item13{
-        margin-right: 135px;
-    }
-    .item14{
-        margin-left: 25px ;
-        margin-top:40px;
-        margin-right: 20px;
-        padding-right: 20px;
-        margin-bottom: 0;
-    }
-    .item15{
-        margin-right: 135px;
-    }
-    .item16{
-        margin-left: 25px ;
-        margin-top:40px;
-        margin-right: 20px;
-        padding-right: 20px;
-        margin-bottom: 0;
-    }
-    .item19{
-        margin-right: 135px;
-    }
-    .item20{
-        margin-left: 25px;
-        margin-top: 40px;
-        margin-right: 20px;
-        padding-right: 20px;
-        margin-bottom: 0;
-    }
-    .item21{
-        margin-right: 135px;
-    }
-    .item22{
-        margin-left: 25px;
-        margin-top: 40px;
-        margin-right: 20px;
-        padding-right: 20px;
-        margin-bottom: 0;
-    }
-    .item17{
-        margin-top:40px;
-        margin-left: 0;
-    }
-    .item18{
-        margin-right: 0px;
-        margin-left: 0px;
-        padding-left: 0px;
-        margin-top: 40px;
-    }
-    .item18 ul{
-        padding-left: 0;
-    }
-
-    .contact-list{
-        font-size: 1.2rem;
-        line-height: 2.3em;
-    }
-    .item18{
-        margin-right: 90px;
-    }
+    .item-profile-photo > h2 { font-size: 1.2rem; }
+    .item-profile-photo > h3 { font-size: 1.1rem; }
+    .container-profile i { font-size: 1.9rem; }
+    .item-profile-text p { font-size: 1.17rem; margin-top: 0px; }
+    .item-profile-photo > #image { width: 200px; height: auto; margin-bottom: 5px; }
+    .item3{ margin:0px; }
+    .item4{ margin-top: 40px; margin-left: 40px; margin-right: 20px; padding-right: 20px; }
+    .item6{ margin-left: 70px; margin-right: 20px; padding-right: 20px; }
+    .item7{ margin:0; }
+    .item8{ margin-top:40px; margin-left: 25px; margin-right: 20px; padding-right: 20px; margin-bottom: 0; }
+    .item9{ margin-right: 135px; }
+    .item10{ margin-top:40px; margin-left: 25px; margin-right: 20px; padding-right: 20px; margin-bottom: 0; }
+    .item11{ margin-right: 135px; }
+    .item12{ margin-left: 25px; margin-top:40px; margin-right: 20px; padding-right: 20px; margin-bottom: 0; }
+    .item13{ margin-right: 135px; }
+    .item14{ margin-left: 25px; margin-top:40px; margin-right: 20px; padding-right: 20px; margin-bottom: 0; }
+    .item15{ margin-right: 135px; }
+    .item16{ margin-left: 25px; margin-top:40px; margin-right: 20px; padding-right: 20px; margin-bottom: 0; }
+    .item19{ margin-right: 135px; }
+    .item20{ margin-left: 25px; margin-top:40px; margin-right: 20px; padding-right: 20px; margin-bottom: 0; }
+    .item21{ margin-right: 135px; }
+    .item22{ margin-left: 25px; margin-top:40px; margin-right: 20px; padding-right: 20px; margin-bottom: 0; }
+    .item17{ margin-top:40px; margin-left: 0; }
+    .item18{ margin-right: 90px; margin-left: 0px; padding-left: 0px; margin-top: 40px; }
+    .item18 ul{ padding-left: 0; }
+    .contact-list{ font-size: 1.2rem; line-height: 2.3em; }
 }
